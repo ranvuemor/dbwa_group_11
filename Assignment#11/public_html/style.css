@@ -1,0 +1,236 @@
+/* header */
+.header {
+    padding: 1px;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.container{
+	border: none;
+	
+	text-align: center;
+}
+
+/* navigation bar: home, groups, activity, account */
+#navbar ul { 
+	font: 1em Arial, sans-serif;
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+}
+
+#navbar ul img { 
+  	display: block;
+  	margin-right: auto;
+} 	
+ 
+#navbar ul li {  
+	display: inline; 
+} 
+ 
+#navbar ul li  a{ 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+}
+
+#navbar ul li a:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+/* dividing further webpage for menu items and their contents */
+
+
+
+.column {
+
+	float:left;
+	height:71.5vh;
+	
+}
+
+
+.left{
+	width: 25%;
+}
+
+.right {
+	width: 75%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+/* menu items: create expenses,... */
+#menu ul { 
+	font: 1em Arial, sans-serif;
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: left; 
+	} 
+#menu ul img { 
+	display: block;
+	margin-left: auto;
+	} 	
+	 
+#menu ul li {  
+	display: block; 
+	} 
+	 
+#menu ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #000; 
+	} 
+
+#search-menu ul{
+	font: 1em Arial, sans-serif;
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: center;
+	display: inline;
+}
+
+#search-menu ul li {  
+	display: block; 
+	} 
+
+/* button design and its hover feature for menu items */
+.button1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	padding: 1em;margin: 1em;
+	text-decoration: none;
+	color: #aaa;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(#aaa, #aaa);
+	background-size: 0 5px, auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	transition: all .2s ease-out;
+	cursor: pointer;
+}
+
+.button1:hover {
+	background-size: 100% 5px, auto;
+}
+
+.support1 {
+
+	text-align: center;
+	padding-bottom: 15px;
+
+}
+
+/* button design and its hover feature for navigation bar */
+.button2 {
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	}
+  
+.button2:hover {
+	background-color: #aaa;
+	box-shadow: 0px 15px 20px ;
+	color: #fff;
+	transform: translateY(-7px);
+}
+
+.button3 {
+	width: 140px;
+	height: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+.button3:hover {
+
+	background-color: rgb(233, 233, 233);
+	color: #000;
+	
+
+}
+
+/* table */
+table{
+  width:100%;
+  table-layout: fixed;
+  font: 1em Arial, sans-serif;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:480px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #000;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}	
+
+tr{
+  padding: 15px;
+}
+
+/* footer */
+.footer {
+	position: bottom;
+	text-align: right;
+    background: white;
+    color: black;
+    font-size: 11px;
+	font: 1em Arial, sans-serif;
+}
+
+
